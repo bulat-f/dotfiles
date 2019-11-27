@@ -4,7 +4,6 @@
 [user]
     name = Bulat F
     email = write2bulat@gmail.com
-
 [color]
     diff = auto
     status = auto
@@ -21,6 +20,8 @@
     co = checkout
     df = diff
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    amend = commit --amend
+    no-edit = commit --amend --no-edit
 [gitflow "branch"]
     master = master
     develop = develop
