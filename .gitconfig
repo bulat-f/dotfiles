@@ -1,0 +1,35 @@
+[core]
+    excludesfile = ~/.gitignore
+
+[user]
+    name = Bulat F
+    email = write2bulat@gmail.com
+
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+    interactive = auto
+[diff]
+	renamelimit = 0
+[merge]
+    summary = true
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[gitflow "branch"]
+    master = master
+    develop = develop
+[gitflow "prefix"]
+    feature = feature-
+    release = release-
+    hotfix = hotfix-
+    support = support-
+    versiontag =
+[include]
+    path = .gitconfig.local
+

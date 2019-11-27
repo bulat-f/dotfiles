@@ -1,0 +1,6 @@
+brew "ack"
+brew "ag"
+brew "git"
+brew "pwgen"
+brew "macvim"
+brew "zsh"
