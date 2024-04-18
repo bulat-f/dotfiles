@@ -25,6 +25,9 @@ export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
 export PATH="$PATH:$HOME/.tools"
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH="$PATH:/opt/homebrew/bin"
+
 export EDITOR=vim
 
 export PAGER=less
